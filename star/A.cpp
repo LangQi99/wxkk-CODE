@@ -8,11 +8,13 @@ using namespace std;
 #define cp complex<ld>
 #define endl '\n'
 #define FOR(i, l, r) for (ll i = (l); i <= (r); i++)
-#define debug(x) cout << #x << " = " << x << endl;
 const double PI = acos(-1);
 
 void solve()
 {
+    ll a, b, c;
+    cin >> a >> b >> c;
+    cout << max(a, max(b, c)) * 2 << endl;
 }
 
 int main()
